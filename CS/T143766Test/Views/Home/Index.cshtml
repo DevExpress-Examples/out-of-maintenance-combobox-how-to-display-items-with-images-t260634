@@ -1,0 +1,23 @@
+﻿@{
+    ViewBag.Title = "СomboBox - Image in Edit Box";
+}
+
+<h2>Image in Edit Box</h2>
+@{System.Xml.Linq.XDocument obj = System.Xml.Linq.XDocument.Load(Server.MapPath("~/App_Data/Charts.xml"));}
+
+@Html.DevExpress().ComboBox(
+    settings => {
+        settings.Name = "ComboBox";
+
+        settings.Properties.ValueField = "Name";
+        settings.Properties.TextField = "Text";
+        settings.Properties.ImageUrlField = "ImageUrl";
+        settings.Properties.ItemImage.Width = 24;
+        settings.Properties.ItemImage.Height = 24;
+        settings.SelectedIndex = 0;
+        settings.Properties.ShowImageInEditBox = true;
+    }).BindList(obj.Descendants("Chart").Select(x => new {
+        Name = x.Attribute("Name").Value,
+        Text = x.Attribute("Text").Value,
+        ImageUrl = Url.Content(x.Attribute("ImageUrl").Value)
+    }).ToList()).GetHtml()

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Charts>
+  <Chart Text="Manhattan Bar" Name="ManhattanBar" ImageUrl="~/Images/Charts/ManhattanBar.png" />
+  <Chart Text="Pie" Name="Pie" ImageUrl="~/Images/Charts/Pie.png" />
+  <Chart Text="Bar &amp; Line" Name="BarAndLine" ImageUrl="~/Images/Charts/BarAndLine.png" />
+  <Chart Text="Bar Stacked" Name="BarStacked" ImageUrl="~/Images/Charts/BarStacked.png" />
+  <Chart Text="Gantt" Name="Gantt" ImageUrl="~/Images/Charts/Gantt.png" />
+</Charts>
