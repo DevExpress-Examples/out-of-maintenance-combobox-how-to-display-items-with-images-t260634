@@ -6,6 +6,9 @@
 * **[Index.cshtml](./CS/T143766Test/Views/Home/Index.cshtml)**
 <!-- default file list end -->
 # ComboBox - How to display items with images
+<!-- run online -->
+**[[Run Online]](https://codecentral.devexpress.com/t260634)**
+<!-- run online end -->
 
 
 This example illustrates how to bind the editor to an xml file and use the <a href="https://documentation.devexpress.com/#AspNet/DevExpressWebComboBoxProperties_ShowImageInEditBoxtopic">ComboBoxProperties.ShowImageInEditBox</a> property.
