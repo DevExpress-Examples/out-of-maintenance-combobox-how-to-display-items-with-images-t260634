@@ -7,7 +7,7 @@
 <!-- default file list end -->
 # ComboBox - How to display items with images
 <!-- run online -->
-**[[Run Online]](https://codecentral.devexpress.com/t260634)**
+**[[Run Online]](https://codecentral.devexpress.com/t260634/)**
 <!-- run online end -->
 
 
